@@ -1,236 +1,379 @@
 {
-  "meta": {
-    "theme": "elegant"
-  },
   "basics": {
-    "name": "Thomas Davis",
-    "label": "Web Developer",
-    "image": "https://avatars0.githubusercontent.com/u/416209?s=460&u=38f220a2c9c658141804f881c334c594eb1642ac&v=4",
-    "summary": "I'm a full stack web developer who can build apps from the ground up. I've worked mostly at startups so I am used to wearing many hats. I am a very product focussed developer who priotizes user feedback first and foremost. I'm generally very flexible when investigating new roles. ",
-    "website": "https://lordajax.com",
-    "email": "thomasalwyndavis@gmail.com",
+    "name": "Marcio Gualtieri",
+    "label": "Senior Software Developer and Data Engineer",
+    "picture": "",
+    "email": "",
+    "website": "",
+    "summary": "A senior full-stack developer, with a bias for back-end and data engineering, I have working experience in a wide variety of niches and company sizes, from advertising, finance, and e-commerce to cyber-security, and data-analytics, from large corporations to start-ups.  I'm also a trained data scientist and have completed several certified specializations in the fields of data science and machine learning (please refer to my certifications on my LinkedIn profile).  I follow clean-code principles, and, thus, I'm a practitioner of test-driven development. You don't need to take my word for it, I have several samples of my work on my GitHub portfolio:  https://github.com/marciogualtieri/About  I'm a lifelong learner and I also enjoy learning by building projects. You're welcome  to browse through them.",
     "location": {
-      "city": "Melbourne",
-      "countryCode": "AU"
+      "address": "",
+      "postalCode": "5614HB",
+      "city": "",
+      "countryCode": "",
+      "region": ""
     },
-    "profiles": [
-      {
-        "username": "ajaxdavis",
-        "url": "https://twitter.com/ajaxdavis",
-        "network": "twitter"
-      },
-      {
-        "url": "https://github.com/thomasdavis",
-        "username": "thomasdavis",
-        "network": "github"
-      }
-    ]
+    "profiles": []
   },
-  "education": [
+  "work": [
     {
-      "endDate": "2009-12-12",
-      "startDate": "2008-02-12",
-      "area": "Software Engineering (incomplete)",
-      "studyType": "Bachelors",
-      "institution": "The University of Queensland"
+      "company": "Finmatics",
+      "position": "Full-stack Developer (Remote)",
+      "website": "",
+      "startDate": "2023-03-01",
+      "summary": "Finmatics leverages machine learning (specifically  LLM's) to automate tasks for accountants, such as processing paper invoices and predicting invoices' ineligible or missing information.  - Developed features for the SaaS accounting platform. Most of the features I developed were full-stack, that is, required back-end and front-end changes simultaneously, and demanded a wholesome understanding of the platform.  - Maintenance and defect fixing, a large number of them, the vast majority introduced by previous releases, unrelated to the ones I worked on.  Skill-set: OOP, Django, DRF, Python, FastAPI, AngularJS, NodeJS, Bootstrap, Javascript, Typescript, Apex Charts, HTML, CSS, PostgreSQL, Elasticsearch, Kibana, GitLab, Kubernetes, Celery, Redis, ML, Helm, Kubectl, Jasmine, Pytest, Cypress, OCR, LLM's, NLP, OpenAPI/Swagger.",
+      "highlights": [],
+      "endDate": "2024-06-01"
+    },
+    {
+      "company": "Silvr",
+      "position": "Full-stack Developer (Remote)",
+      "website": "",
+      "startDate": "2022-07-01",
+      "summary": "Silvr provides revenue based financing for small companies (particularly in the e-commerce space) and attends to two types of end-users: Companies seeking financing and risk analysts, which evaluate companies for legibility based on collected financial data (financial history, sales, expenses).  - Developed  full-stack features for revenue based financing platform (most of the features I developed required back-end and front-end changes, demanding a wholesome understanding of both the transactional and analytical sides of the platform.  - Maintenance and defect fixing, a large number of them, the majority introduced by previous releases, unrelated to the ones I worked on.  Skill-set: OOP, Python, Django, DRF, PostgreSQL, Celery, Redis, Django Templates, Tailwind, Javascript,  Alphine.js, React.js, Node.js, HTML, CSS, Terraform, Jasmine, Playwright, Pytest, OpenAPI/Swagger.",
+      "highlights": [],
+      "endDate": "2023-02-01"
+    },
+    {
+      "company": "Marketer",
+      "position": "Senior Back-end Developer & Data Engineer (Remote)",
+      "website": "",
+      "startDate": "2021-09-01",
+      "summary": "Marketer leverages data analytics and machine learning for real estate advertising. My team in particular, the data science team, is responsible for ETL/ELT of real estate data,  machine learning, leveraged to provide useful predictions (e.g., selling price, advertising impressions and clicks), as well as distributing real estate data and insights throughout the company though REST APIs leveraged for the development of web and mobile apps.  - Developed real estate data distribution back-end (Django, DRF) using micro-services. The API distributes data from various sources (micro-services, such as machine learning prediction API's and data pipelines).  - Developed Airflow DAGs that parse and store real estate data (from customer's CRM system).  - Performed DevOps duties managing Kubernetes clusters, including CI/CD using GitLab's Auto DevOps (auto-deploy, helm).  - Developed RabbitMQ consumer services to sync up real estate data from the REST API in real-time.  - Implemented end-to-end tests for the whole solution, from the data consumption to the data distribution through the REST API service.  Skill-set: OOP, Python, Django, DRF, Flask, Kubernetes, PostgreSQL, Airflow, Pandas, Numpy, GitLab (Auto DevOps), Google Cloud, JSON, SOAP, SQL,  ETL, ELT, Data Modeling, Normalization, Facts, Dimensions, Star Schema, Snowflake Schema, ML, Pytest, Helm, Kubectl, OpenAPI/Swagger.",
+      "highlights": [],
+      "endDate": "2022-06-01"
+    },
+    {
+      "company": "Kheiron Medical",
+      "position": "Data Engineer (Remote)",
+      "website": "",
+      "startDate": "2021-04-01",
+      "summary": "Kheiron leverages machine learning to diagnose breast cancer based on X-rays images and metadata (DICOM).  - Designed and implemented data pipelines, performed data normalization, ETL/ELT medical data, including DICOM files for the purpose of machine learning.  Skill-set: Python, Pytest, Airflow, Docker, AWS, Redshift, S3, PostgreSQL, AWS Glue's Data Catalog,  ETL, ELT, Data Modeling, Normalization, Facts, Dimensions, Star Schema, Snowflake Schema.",
+      "highlights": [],
+      "endDate": "2021-08-01"
+    },
+    {
+      "company": "Soda",
+      "position": "Senior Back-end Developer (Remote)",
+      "website": "",
+      "startDate": "2020-11-01",
+      "summary": "Soda produces metrics and alarms for the evaluation and monitoring of data quality.  - Developed features and maintained platform's Python SDK (e.g., support for new data warehouses, such as Snowflake and BigQuery).  - Developed new features for the Java RESTful back-end (Java, Maven).  - Performed DevOps (GitHub Actionsfor CI/CD).  Skill-set: OOP, Python, Java, Jersey Framework, PostgreSQL, MySQL, BigQuery, Redshift, Athena, Snowflake, GitHub Actions, Data Warehouses, CI/CD.",
+      "highlights": [],
+      "endDate": "2021-03-01"
+    },
+    {
+      "company": "Karakuri Apps",
+      "position": "Small Business Owner",
+      "website": "",
+      "startDate": "2019-02-01",
+      "summary": "That's my own small company, I use it to generate invoices for my contract roles.  - Provide consultancy in the fields of software development, that is, full-stack development, data engineering, and machine learning for startups and IT companies. Among my clients:  PolySwarm, Marketer, Silvr, and Finmatics.  Skill-set: Back-end Development (REST APIs. FastAPI, SQLAlchemy, Pydantic, Django, DRF, Django Templates, Postgres, Redis, ActiveMQ, MemCache), Machine Learning (LLM's, RAG, OpenAI, LangChain (Python), Rasa, Jupyter, Sklearn, HuggingFace, Torch, Tensorflow), Data engineering (Airflow, Pandas, Redshift, BigQuery, S3, Google Storage, Kafka, PyMuPDF, unstructured.io).",
+      "highlights": []
+    },
+    {
+      "company": "PolySwarm",
+      "position": "Senior  Back-end Developer & Data Engineer (Remote)",
+      "website": "",
+      "startDate": "2019-02-01",
+      "summary": "Polyswarm leverages blockchain technology to manage multiple third party malware detectors and generate a single consensus prediction (that is, is it malware or not?) and also serves as a malware database utilized by security researchers (similarly to Virus Total).  - Configured, deployed settings and developed code to leverage malware metadata searching using Elasticsearch (mapping index types, developing pipeline/processors/tokenizers/analyzers using \"Painless\" script and Python, writing Elasticsearch DSL queries).  - Developed similarity detection using TLSH/SSDEEP hashing and clustering of categorical features using K-modes and EMR/PySpark.  - Developed REST/API's using Flask, SQLAlchemy, Django, and Celery.  - Developed load tests using Gatling in Scala.  - Developed data pipeline for malware metadata processing and insight generation.  Skill-set: Python, Elasticsearch, SQLAlchemy, Postgres, Flask, Django, Celery, Kafka, Scala,Gattling,  Jupyter Notebooks, Pandas, Spark (PySpark), EMR, Kubernetes (helm, kubectl, charts), AWS (S3), Docker, GitLab CI, and Gatling.",
+      "highlights": [],
+      "endDate": "2020-05-01"
+    },
+    {
+      "company": "Sabbatical",
+      "position": "Student",
+      "website": "",
+      "startDate": "2016-08-01",
+      "summary": "Took some time off to improve my skill-set, particularly on data science and machine learning ,  having completed several certified training, among them the following:  - Coursera/Johns Hopkins' Data Science Specialization (10 courses, including a capstone project).  - Coursera/deeplearning.ai: Deep Learning Specialization (4 courses)  - Coursera's Functional Programming in Scala Specialization (5 courses, including a Spark/Scala course and a capstone project).  I also took many other courses on data engineering tools, such as Spark (in Python, Scala and Java), Web development (Ruby on Rails, Javascript, HTML/CSS, AngularJS), data science (statistics, data analysis, data visualization), and machine learning (R, Jupyter, Pandas, TensorFlow,  H2O). Please take a look at my verifiable certificates on my LinkedIn profile.",
+      "highlights": [],
+      "endDate": "2019-01-01"
+    },
+    {
+      "company": "Zalando SE",
+      "position": "Senior Back-end Developer",
+      "website": "",
+      "startDate": "2016-05-01",
+      "summary": "Zalando is one of the largest e-commerce retailers in Europe.  - Developed back-end services using Scala/PlayFramework.  - Developed migration tools in Python.  - Configure CI/CD using Jenkins/Build per Branches.  - Work on machine learning classifier developed in Clojure with Sparkling.  - Worked on data processing jobs using Scala/EMR/Spark.  - Worked on legacy web scrapper developed in Scala and Kafka.  Skill-set: OOP, Scala, Java, Clojure, AWS, Kafka, Kafka Streams, Spark, Python, CI/CD (Github, Jenkins), TDD (ScalaTest), Agile/SCRUM (JIRA).",
+      "highlights": [],
+      "endDate": "2016-08-01"
+    },
+    {
+      "company": "Dun & Bradstreet",
+      "position": "Senior Back-end Developer (Contract)",
+      "website": "",
+      "startDate": "2015-04-01",
+      "summary": "Dun & Bradstreet provides financial data.  - Designed and implemented a test automation framework based on BDD (Behavioral Driven Development)  using JBehave, Spring and Java.  - Developed back-end features (Java, Jersey).  Skill-set: OOP, Java, J2EE, Web Services (RESTful, Jersey) Web Technologies (Spring, HTML, CSS, Freemarker), Amazon AWS (DynamoDB, S3, Elastic Beanstalk), Hadoop, Hive, Impala, HBase, Maven, Continuous Integration (Git, Stash, Jenkins), TDD (Junit, Hamcrest, Wiremock), BDD (JBehave), Tomcat, Python, Bash, Linux (CentOS 6), IntelliJ , Agile/SCRUM (Jira).",
+      "highlights": [],
+      "endDate": "2015-09-01"
+    },
+    {
+      "company": "AOL",
+      "position": "Senior Back-end Developer & Data Engineer (Contract)",
+      "website": "",
+      "startDate": "2013-08-01",
+      "summary": "AOL needs no introduction.  - Developed eDemo Project (Demographic Data Collection). Worked across all AOL targeting modules (RTX, Ingestor, UTS-API, etc) with low level design and implementation. Demographic data (such as age group, gender, profession, geographic location) are persisted to and collected from cookies (Base64 encoded) and such information is used to target ads to users over AOL and partner websites. Collected data is parsed and converted to a unified format (Avro) where is written to log files (using Logback API) and ActiveMQ topics (Spring JMS Templates). The data goes across multiple targeting modules and ultimately is stored in a non-SQL, non-Locking storage system (used to be CouchBase, but AOL  migrated to AeroSpike in 2014) through a rest interface (Jersey RESTful). Configuration is stored in a Oracle Database (Spring, Hibernate, JPA, Named Queries) with a rest interface on top (Jersey RESTful). UI changes developed using Javascript and ExtJS. AOL has a full continuous integration environment (Jenkins, Maven, PyBot), TDD (JUnit, Mockito, Hamcrest), BDD (Jbehave), Agile/SCRUM and code reviews (Git/Stash).  - Maintenance and defect fixing. Spent at least 6 months working on production issues. Achieved best performance review across all targeting teams. Additionally to defect fixing in Back-End and UI modules, also worked on modules used to mine impression data (Hadoop Java, Hadoop PIG/UDF's, Hadoop Streaming/Perl) and produce impression count to charge customers.  Skill-set: OOP, Java, J2EE, Web Services (RESTful, Jersey) Web Technologies (Spring, Hibernate, Javascript, HTML, CSS, ExtJS, Coffee Script), TDD (Junit, Hamcrest, Mokito), BDD (Jbehave, Jasmine), ActiveMQ, Python, Bash, Oracle, MySQL, Hadoop (Java Map-Reduce, Pig and Streaming Jobs), Eclipse, Continuous Integration (Git, Stash, Jenkins), Linux (CentOS), Agile/SCRUM (Jira and Version One).",
+      "highlights": [],
+      "endDate": "2014-12-01"
     }
   ],
-  "references": [
+  "education": [
     {
-      "reference": "Thomas was hired as a lead developer and, upon the leaving of our co-founder took over as CTO of Earbits. Thomas is, hands down, one of those A Players you hear of companies dying to hire. He is incredibly smart, not just at code but about everything from classical music to Chinese language and culture. Thomas is great to work with and, as a well established contributor to open source projects and several successful ventures, commands the respect of engineers at all levels. I would suggest doing anything you can to have him on your team.",
-      "name": "Joey Flores, Co-founder and CEO of Earbits, Inc."
-    },
-    {
-      "reference": "I've had the great pleasure of working with Thomas for the past three years at Earbits, and on a few side projects. Two years ago our CTO left on a moment's notice, Thomas saved our company by quickly stepping up to fill this role. He has been with our company through thick and thin and made serious personal sacrifices in order to help the company during tough times. He is a phenomenal hacker and a true team player. Highly recommended!",
-      "name": "Yotam Rosenbaum, SVP of Operations, Earbits, Inc."
-    },
-    {
-      "reference": "Thomas is an extremely talented engineer with a very broad range of skills and experience. From being a thought leader in the front-end community via backbonetutorials.com and cdnjs.com, to designing and implementing the API for cdnjs.com, working with Thomas has been fantastic learning experience. Thomas is truly a full stack develop, and his work output is incredible. If there is any opportunity to work with Thomas, I take it. He is the definition of an A player.",
-      "name": "Ryan Kirkman, Senior Software Engineer at Nerdwallet"
-    },
-    {
-      "reference": "On Thomas Davis... Hire this guy. Do not be fooled. Incredibly capable and fast. Plays well with others. Unbelievable at front-end work end programming but that is just the start. Visionary. Hire him before I do.",
-      "name": "Greg Davis"
+      "institution": "",
+      "area": "",
+      "studyType": "Electrical Engineering",
+      "startDate": "1995-01-01",
+      "gpa": "",
+      "courses": [],
+      "endDate": "1999-01-01"
     }
   ],
   "skills": [
     {
-      "keywords": [
-        "HTML / JSX",
-        "SCSS / CSS / BEM / Styled Components",
-        "Javascript / Typescript",
-        "React / Next",
-        "Redux / Apollo"
-      ],
-      "level": "Senior",
-      "name": "Frontend"
+      "name": "Full-Stack Development",
+      "level": "",
+      "keywords": []
     },
     {
-      "keywords": ["Node", "Ruby", "Python", "Postgres", "Redis", "Serverless"],
-      "level": "Senior",
-      "name": "Backend"
+      "name": "Back-End Web Development",
+      "level": "",
+      "keywords": []
     },
     {
-      "keywords": ["AWS", "G Cloud", "Heroku", "Caching"],
-      "level": "Senior",
-      "name": "Devops"
+      "name": "Data Engineering",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Databases",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Object-Oriented Programming (OOP)",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Software Development",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Data Science",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "R (Programming Language)",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Terraform",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "MySQL",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "HTML5",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "MongoDB",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Snowflake",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Extract, Transform, Load (ETL)",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Natural Language Processing (NLP)",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "ETL Tools",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Big Data",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Cloud Infrastructure",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Web Development",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Cascading Style Sheets (CSS)",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "DevOps",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "React.js",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Front-End Development",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "NoSQL",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Django REST Framework",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Kubernetes",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Google Cloud Platform (GCP)",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "PostgreSQL",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Docker",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "HTML",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "JavaScript",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Machine Learning",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Agile Methodologies",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "TDD",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Linux",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "SQL",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Python",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Amazon Web Services (AWS)",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Git",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Jupyter",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Apache Spark",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Databricks",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Django",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Flask",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "SQLALchemy",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Python (Programming Language)",
+      "level": "",
+      "keywords": []
     }
   ],
-  "awards": [
+  "languages": [
     {
-      "title": "Defender of the Internet",
-      "awarder": "Fight For The Future"
+      "language": "Italian",
+      "fluency": "Elementary proficiency"
+    },
+    {
+      "language": "English",
+      "fluency": "Full professional proficiency"
     }
   ],
-  "work": [
+  "projects": [
     {
-      "summary": "Tokenized is a Bitcoin wallet for issuing, managing and trading digital tokens. I built out the front end which was packaged as an electron app. It was a difficult frontend to build because we store the users keys locally and used them to sign transactions and contracts.",
-      "website": "https://tokenized.com/",
-      "name": "Tokenized",
-      "location": "Melbourne",
-      "position": "Senior Javascript Developer",
-      "startDate": "2020-05-05",
-      "highlights": ["React", "Redux", "SCSS", "Product"]
-    },
-    {
-      "summary": "Blockbid is an Australian crypto currency exchange. I started off on the frontend but eventually became lead tech and worked on every moving piece of the exchange. I really enjoyed working with liquidity providers and connecting their platforms to help us achieve liquid markets.",
-      "website": "https://platform.blockbid.io",
-      "name": "Blockbid",
-      "location": "Melbourne",
-      "position": "Senior Javascript Developer",
-      "startDate": "2018-03-01",
-      "endDate": "2020-01-01",
-      "highlights": [
-        "React, Apollo, Styled Components",
-        "Node.js / Rails",
-        "Docker / Heroku / GCP",
-        "Used Figma for design and UX work",
-        "Optimizing markets with tens of millions of rows using SQL."
-      ]
-    },
-    {
-      "highlights": [
-        "Worked with Postgres, Redis and Dynamodb for storage.",
-        "Hosted on a mixture of Heroku Apps and EC2 servers.",
-        "Caching by Fastly and Cloudflare",
-        "Hybrid app supported on all platforms"
-      ],
-      "summary": "Built a very large and complex React / Redux application. It works on all platforms and has IOS/Android builds due to it being a PWA. (wrapped it in React Native though only implementing a WebView)",
-      "website": "https://listium.com",
-      "pinned": true,
-      "name": "Listium",
-      "position": "Developer",
-      "startDate": "2016-01-01",
-      "endDate": "2018-01-01"
-    },
-    {
-      "highlights": [
-        "Millions of sites use the CDN in production",
-        "Larger market share than Yahoo's, Microsoft's and Google's javascript content distribution networks",
-        "We serve hundreds of billions request a month",
-        "Contains over 3000 popular Javascript libraries",
-        "Millions of developers visit the site per year"
-      ],
-      "pinned": true,
-      "summary": "Following Google's CDN for jQuery, we decided to start a CDN for the less popular Javascript frameworks. The CDN is community moderated and open source on GitHub. We secured a partnership with Cloudflare who now supports the infrastructure.",
-      "website": "http://www.cdnjs.com",
-      "name": "Cdnjs",
-      "position": "Co-Founder",
-      "startDate": "2011-01-08"
-    },
-    {
-      "highlights": [
-        "Developed new tools for contacting congress",
-        "Brainstormed campaign ideas to raise maximum awareness about issues",
-        "Lots of social networking integration"
-      ],
-      "summary": "Hired to take EFF's campaigning to the next level by building an action centre in Ruby on Rails. The action centre is built around some large open source tools that lower the barrier to entry when contacting congress.",
-      "website": "http://www.eff.org",
-      "name": "Electronic Frontier Foundation",
-      "position": "Developer",
-      "startDate": "2014-04-01",
-      "endDate": "2016-01-01"
-    },
-    {
-      "highlights": [
-        "Managed a small team of developers and designers",
-        "Built the entire frontend application with Backbone.js",
-        "Transferred all of the infrastructure from Heroku to AWS"
-      ],
-      "summary": "Started off as a front end developer but took on the role of CTO in early 2013. The application frontend is built with Javascript and organized as a single page application that talks to a collection of Rails web servers which are connected to MongoDB.",
-      "website": "http://www.earbits.com",
-      "name": "Earbits",
-      "position": "CTO",
-      "endDate": "2015-01-09",
-      "startDate": "2013-03-08"
-    },
-    {
-      "highlights": ["This resume is built with JSON Resume", "Over 3000 stars on Github", "Community developed themes", "Tens of thousands of users"],
-      "summary": "JSON Resume is a community driven open source initiative to create a JSON based standard for resumes. There is no reason why there can't be a common standard for writing a resume that can be extended with an ecosystem of open source tools.",
-      "website": "http://jsonresume.org",
-      "pinned": true,
-      "name": "JSON Resume",
-      "position": "Founder",
-      "startDate": "2014-04-01"
-    },
-    {
-      "highlights": [
-        "Generated  37,000,000 banner views",
-        "100, 000 phone calls to congress",
-        "500, 000 emails",
-        "250, 000 signatures"
-      ],
-      "summary": "Worked on many politically charged campaigns against mass surveillance. Not only technically challenging work but also a lot of networking and getting my hands dirty with politics.    Our biggest project was \"TheDayWeFightBack\"..",
-      "website": "http://www.taskforce.is",
-      "name": "Taskforce.is",
-      "position": "Developer",
-      "startDate": "2013-06-01",
-      "endDate": "2016-01-01"
-    },
-    {
-      "highlights": [
-        "The site and blog combined have managed to receive over 200,000 visitors in 2014."
-      ],
-      "summary": "An international directory of civilian drone / UAV operators for hire. Services include aerial photography, aerial video, mapping, surveying, precision agriculture, real estate photography, remote inspections and infrared imaging. Our plan is to be the place to go when looking for UAV/Drone services. The website is built in Backbone.js and API is built with Node.js and Postgres. ",
-      "website": "http://www.dronehire.org",
-      "name": "Drone Hire",
-      "position": "Co-Founder",
-      "startDate": "2013-01-01"
-    },
-    {
-      "highlights": [
-        "Over two million unique visitors a year",
-        "25,000+ ebook downloads",
-        "300,000+ Youtube views"
-      ],
-      "summary": "I write tutorials and blog post regarding the popular Javascript framework Backbone.js. The tutorials cover a range of topics regarding front end development aimed at beginners, experts and anyone in between.",
-      "website": "http://backbonetutorials.com",
-      "name": "BackboneTutorials.com",
-      "position": "Founder",
-      "startDate": "2011-01-01",
-      "endDate": "2014-01-01"
-    },
-    {
-      "summary": "Ephox is a worldwide company who is heavily involved with the development of TinyMce and enterprise editors. My primary role included building front-end widgets and applications. Worked on a major product using Backbone.js as a base. Heavily involved in UI/UX design and wire-framing. Also spend a lot of time designing API specifications and documentation.",
-      "website": "http://ephox.com",
-      "name": "Ephox",
-      "position": "Front-end Developer",
-      "endDate": "2012-06-01",
-      "startDate": "2011-01-01"
-    }
-  ],
-  "interests": [
-    {
-      "name": "Gardening"
-    },
-    {
-      "name": "Music / Jamming"
-    },
-    {
-      "name": "Reading / Writing"
-    },
-    {
-      "name": "Open Source"
+      "name": "GitHub Projects",
+      "startDate": "Invalid date",
+      "summary": "Samples of my code from my GitHub account.",
+      "url": "https://github.com/marciogualtieri/About"
     }
   ]
 }
